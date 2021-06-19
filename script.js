@@ -1,3 +1,10 @@
+const menuIcon = document.querySelector('.hamburger-menu');
+const navBar = document.querySelector('.navBar');
+
+menuIcon.addEventListener('click', () => {
+    navBar.classList.toggle('change');
+});
+
 function facebookRendering() {
     window.location.href = 'https://www.facebook.com/mateennawaz.mateenawaz/"';
 }
